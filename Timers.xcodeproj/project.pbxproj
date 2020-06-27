@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		84CB5324249D860B00144BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5323249D860B00144BE0 /* AppDelegate.swift */; };
 		84CB5326249D860B00144BE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5325249D860B00144BE0 /* SceneDelegate.swift */; };
-		84CB5329249D860B00144BE0 /* Timers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5327249D860B00144BE0 /* Timers.xcdatamodeld */; };
 		84CB532B249D860B00144BE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB532A249D860B00144BE0 /* ContentView.swift */; };
 		84CB532D249D860C00144BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CB532C249D860C00144BE0 /* Assets.xcassets */; };
 		84CB5330249D860C00144BE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CB532F249D860C00144BE0 /* Preview Assets.xcassets */; };
 		84CB5333249D860C00144BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CB5331249D860C00144BE0 /* LaunchScreen.storyboard */; };
 		84CB533E249D860D00144BE0 /* TimersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB533D249D860D00144BE0 /* TimersTests.swift */; };
 		84CB5349249D860D00144BE0 /* TimersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5348249D860D00144BE0 /* TimersUITests.swift */; };
+		84CB5356249D9B7900144BE0 /* Timers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5327249D860B00144BE0 /* Timers.xcdatamodeld */; };
+		84CB535A249DA3AC00144BE0 /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5359249DA3AC00144BE0 /* WorkoutListView.swift */; };
+		84CB535C249E76D800144BE0 /* Workout+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB535B249E76D800144BE0 /* Workout+Extensions.swift */; };
+		84CB535E249E825200144BE0 /* AddWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB535D249E825200144BE0 /* AddWorkout.swift */; };
+		84CB5360249E858700144BE0 /* WorkoutTimer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB535F249E858700144BE0 /* WorkoutTimer+Extensions.swift */; };
+		84CB5362249E8B2000144BE0 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5361249E8B2000144BE0 /* WorkoutView.swift */; };
+		84CB5364249E9B1800144BE0 /* NewTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5363249E9B1800144BE0 /* NewTimer.swift */; };
+		84CB5368249EA69C00144BE0 /* TimerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5367249EA69C00144BE0 /* TimerPicker.swift */; };
+		84CB536A249FDF6800144BE0 /* TimerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5369249FDF6800144BE0 /* TimerListView.swift */; };
+		84CB536C249FE80F00144BE0 /* TimerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB536B249FE80F00144BE0 /* TimerDetailView.swift */; };
+		84CB536E249FECCA00144BE0 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB536D249FECCA00144BE0 /* TimerView.swift */; };
+		84CB537024A003A600144BE0 /* ActiveWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB536F24A003A600144BE0 /* ActiveWorkoutView.swift */; };
+		84CB537224A7E3BA00144BE0 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB537124A7E3BA00144BE0 /* SeedData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		84CB5344249D860D00144BE0 /* TimersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CB5348249D860D00144BE0 /* TimersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersUITests.swift; sourceTree = "<group>"; };
 		84CB534A249D860D00144BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CB5359249DA3AC00144BE0 /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		84CB535B249E76D800144BE0 /* Workout+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout+Extensions.swift"; sourceTree = "<group>"; };
+		84CB535D249E825200144BE0 /* AddWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkout.swift; sourceTree = "<group>"; };
+		84CB535F249E858700144BE0 /* WorkoutTimer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutTimer+Extensions.swift"; sourceTree = "<group>"; };
+		84CB5361249E8B2000144BE0 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		84CB5363249E9B1800144BE0 /* NewTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimer.swift; sourceTree = "<group>"; };
+		84CB5367249EA69C00144BE0 /* TimerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPicker.swift; sourceTree = "<group>"; };
+		84CB5369249FDF6800144BE0 /* TimerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerListView.swift; sourceTree = "<group>"; };
+		84CB536B249FE80F00144BE0 /* TimerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDetailView.swift; sourceTree = "<group>"; };
+		84CB536D249FECCA00144BE0 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		84CB536F24A003A600144BE0 /* ActiveWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveWorkoutView.swift; sourceTree = "<group>"; };
+		84CB537124A7E3BA00144BE0 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +128,22 @@
 				84CB5323249D860B00144BE0 /* AppDelegate.swift */,
 				84CB5325249D860B00144BE0 /* SceneDelegate.swift */,
 				84CB532A249D860B00144BE0 /* ContentView.swift */,
+				84CB535D249E825200144BE0 /* AddWorkout.swift */,
+				84CB5361249E8B2000144BE0 /* WorkoutView.swift */,
+				84CB536F24A003A600144BE0 /* ActiveWorkoutView.swift */,
+				84CB5369249FDF6800144BE0 /* TimerListView.swift */,
+				84CB5363249E9B1800144BE0 /* NewTimer.swift */,
+				84CB536D249FECCA00144BE0 /* TimerView.swift */,
+				84CB537124A7E3BA00144BE0 /* SeedData.swift */,
+				84CB536B249FE80F00144BE0 /* TimerDetailView.swift */,
+				84CB5367249EA69C00144BE0 /* TimerPicker.swift */,
+				84CB5359249DA3AC00144BE0 /* WorkoutListView.swift */,
 				84CB532C249D860C00144BE0 /* Assets.xcassets */,
 				84CB5331249D860C00144BE0 /* LaunchScreen.storyboard */,
 				84CB5334249D860C00144BE0 /* Info.plist */,
 				84CB5327249D860B00144BE0 /* Timers.xcdatamodeld */,
+				84CB535B249E76D800144BE0 /* Workout+Extensions.swift */,
+				84CB535F249E858700144BE0 /* WorkoutTimer+Extensions.swift */,
 				84CB532E249D860C00144BE0 /* Preview Content */,
 			);
 			path = Timers;
@@ -270,10 +306,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CB536E249FECCA00144BE0 /* TimerView.swift in Sources */,
 				84CB5324249D860B00144BE0 /* AppDelegate.swift in Sources */,
-				84CB5329249D860B00144BE0 /* Timers.xcdatamodeld in Sources */,
+				84CB535C249E76D800144BE0 /* Workout+Extensions.swift in Sources */,
+				84CB5364249E9B1800144BE0 /* NewTimer.swift in Sources */,
+				84CB537224A7E3BA00144BE0 /* SeedData.swift in Sources */,
 				84CB532B249D860B00144BE0 /* ContentView.swift in Sources */,
+				84CB536A249FDF6800144BE0 /* TimerListView.swift in Sources */,
+				84CB536C249FE80F00144BE0 /* TimerDetailView.swift in Sources */,
+				84CB535A249DA3AC00144BE0 /* WorkoutListView.swift in Sources */,
+				84CB537024A003A600144BE0 /* ActiveWorkoutView.swift in Sources */,
 				84CB5326249D860B00144BE0 /* SceneDelegate.swift in Sources */,
+				84CB5368249EA69C00144BE0 /* TimerPicker.swift in Sources */,
+				84CB5360249E858700144BE0 /* WorkoutTimer+Extensions.swift in Sources */,
+				84CB5362249E8B2000144BE0 /* WorkoutView.swift in Sources */,
+				84CB535E249E825200144BE0 /* AddWorkout.swift in Sources */,
+				84CB5356249D9B7900144BE0 /* Timers.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Timers/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PV9YBG559;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Timers/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PV9YBG559;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
