@@ -8,14 +8,32 @@
 
 import SwiftUI
 
-struct TimerDetailView: View {
+struct TimerDetailView<Content: View>: View {
+    @Binding var name: String
+    @Binding var reps: Int32
+    @Binding var activeTime: Int32
+    @Binding var restTime: Int32
+    
+    let viewContent: () -> Content
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            TextField("Name", text: $name)
+            Stepper(value: $reps, in: 0 ... Int32.max) {
+                Text("Reps")
+                Spacer()
+                Text("\(self.reps)")
+            }
+            TimerPicker(label: "Active Time", duration: $activeTime)
+            TimerPicker(label: "Rest Time", duration: $restTime)
+            
+            viewContent()
+        }
     }
 }
 
 struct TimerDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TimerDetailView()
+        TimerDetailView(name: .constant(""), reps: .constant(1), activeTime: .constant(0), restTime: .constant(0)) {Text("Nothing")}
     }
 }
