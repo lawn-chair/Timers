@@ -68,6 +68,9 @@ struct ActiveWorkoutView: View {
                 UIDevice.current.setValue(UIInterfaceOrientation.landscapeLeft.rawValue, forKey: "orientation")
                 UINavigationController.attemptRotationToDeviceOrientation()
                 
+                // Prevent screen from going to sleep
+                UIApplication.shared.isIdleTimerDisabled = true
+                
                 self.activeTimer = self.workout.timerList[self.timerIndex]
                 
                 self.currentTime = Int(self.activeTimer!.activeTime)
@@ -83,6 +86,10 @@ struct ActiveWorkoutView: View {
                     
                     //Stop timer when leaving this view
                     self.timer.upstream.connect().cancel()
+
+                    // Allow screen to sleep
+                    UIApplication.shared.isIdleTimerDisabled = false
+
                 }
             }
             .onReceive(self.timer) { time in
