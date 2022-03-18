@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension WorkoutTimer: Identifiable {
+extension WorkoutTimer {
     
     var totalTime: Int {
         Int((self.activeTime + self.restTime)) * Int(self.reps)

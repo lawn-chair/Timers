@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Workout : Identifiable {
+extension Workout {
     
     var timerList: [WorkoutTimer] {
         return (timers?.array as? [WorkoutTimer]) ?? []
