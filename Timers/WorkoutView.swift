@@ -24,7 +24,6 @@ struct WorkoutView: View {
             Section {
                 VStack {
                     TextField("Workout Name", text: self.$workoutName)
-                        .padding()
                         .disabled(!editMode)
                         .onAppear {
                             self.workoutName = self.workout.name ?? ""
